@@ -4,21 +4,19 @@ A machine learning project for predicting and diagnosing health conditions based
 
 ## Overview
 
-This project uses machine learning algorithms to predict various diseases. It implements data preprocessing, feature engineering, and multiple classification models to provide accurate health predictions.
+This project uses machine learning algorithms to predict various diseases. It implements data preprocessing, feature engineering, and machine learning model to provide accurate health predictions.
 
 ## Features
 
 - Multi-disease prediction 
 - Data preprocessing and feature engineering
 - Multiple ML algorithms
-- Model evaluation with cross-validation
-- Performance visualization and metrics
+- Model evaluation with train-test-split and cross-validation
 
 ## Technologies
 
-- **Python 3.8+**
+- **Python 3.11+**
 - **Pandas** - Data manipulation
-- **NumPy** - Numerical computations
 - **Scikit-learn** - Machine learning algorithms
 
 ## Installation
@@ -40,15 +38,10 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Dataset
-
-The project expects CSV files with patient health data.
-
 ## Performance Metrics
 
 Models are evaluated using:
 - Accuracy
-- Precision
 
 ## Contributing
 
@@ -58,12 +51,11 @@ Models are evaluated using:
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see LICENSE file for details.
-
 
 ## Acknowledgments
 
+- Python documentation
 - Scikit-learn documentation and community
-- Healthcare ML research papers
+- Streamlit documentation
+- W3Schools
+- GeeksForGeeks
